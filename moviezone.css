@@ -1,0 +1,118 @@
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    margin: 5px;
+}
+
+.head img{
+    position: relative;
+    width: 11%;
+    z-index: 1;
+    margin-left: 10px;
+    margin-top: -15px;
+    margin-bottom: -14px;
+}
+
+.home-image{
+    background-image: url(assets/hoome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 100vh;
+    border-radius: 20px;
+    position: relative;
+    filter: brightness();
+}
+
+.home-image-text{
+    color: #fff;
+    position: relative;
+    width: 30%;
+    top: 12rem;
+    left: 3rem;
+    z-index: 1;
+}
+
+.money{
+    width: 100%;
+    height: auto;
+}
+
+.play-button{
+    background-color: #E50914;
+    color: #000;
+    border-radius:4px;
+    width: 70px;
+    padding: 5px 20px 5px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.play-button img{
+    margin-top: 0px;
+    padding-left: 5px;
+    width: 25px;
+    position: absolute;
+}
+
+h3{
+    color: #fff;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.NO,
+.TR,
+.RM,
+.CM,
+.AM,
+.HM{
+    display: flex;
+    overflow-y: hidden;
+    /* height: 55vh; */
+    padding-top: 2px;
+    margin-left: 0px;
+    /* margin-bottom: -50px; */
+}
+
+.NO img,
+.TR img,
+.RM img,
+.CM img,
+.AM img,
+.HM img{
+    margin: 5px;
+    width: 160px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.original .NO img:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    transition-delay: 0.1s;
+    filter: brightness(70%);
+}
+
+
+
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    /* width: 0px; */
+    background: transparent;
+}
