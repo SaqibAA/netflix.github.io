@@ -97,7 +97,12 @@ h3{
     border-radius: 10px;
 }
 
-.original .NO img:hover{
+.original .NO img:hover,
+.TR img:hover,
+.RM img:hover,
+.CM img:hover,
+.AM img:hover,
+.HM img:hover{
     transform: scale(1.1);
     transition: 0.4s ease-in-out;
     transition-delay: 0.1s;
